@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+	<meta charset="UTF-8">
+	<title>AngularJS - Two way data binding</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="libs/angular.min.js"></script>
+</head>
+<body>
+	<div class="col-md-4">
+		<div class="form-group">
+			<label for="">Ingrese nu nombre</label>
+			<input type="text" ng-model="nombre" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="">Color de nombre</label>
+			<input type="text" ng-model="color" class="form-control">
+		</div>
+		<br><br>
+		<hr>
+		<h1 class="text-{{color}}">Bienvenido {{nombre}}</h1>
+	</div>
+	
+</body>
+</html>

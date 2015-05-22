@@ -1,0 +1,17 @@
+{
+  "name": "AngularJS",
+  "version": "1.0.0",
+  "description": "Ejemplos diversos explicando la teoria de AngularJS",
+  "repository": "https://github.com/feluis23/AngularJS",
+  "main": "index.html",
+  "devDependencies": {
+    "browser-sync": "^1.8.2",
+    "gulp": "^3.8.11",
+    "gulp-watch": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Felipe",
+  "license": "MIT"
+}
